@@ -1,2 +1,2 @@
-# Formul-rio-de-Cadastro
+# Formulario-de-Cadastro
 Projeto do curso. Formulário de cadastro usando HTML e CSS
