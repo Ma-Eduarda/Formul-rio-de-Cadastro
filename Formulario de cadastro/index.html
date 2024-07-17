@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Formulário</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="imagem">
+      <img src="https://img.freepik.com/free-vector/reading-book-illustration_114360-8532.jpg?w=826&t=st=1721101443~exp=1721102043~hmac=c7e37bbd46d9881b7eaea55ad8b7f45528038f12d8ceaa1504ee9a751210b3cc">
+    </div>
+
+    <div class="form">
+      <form>
+        <div class="header">
+          <h1>Cadrasto de Novos Alunos</h1>
+        </div>
+
+        <div class="grupo-input">
+
+          <div class="caixa-input">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome" placeholder=" Digite seu Nome Completo" required>
+          </div>
+
+          <div class="caixa-input">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder=" Digite seu E-mail" required>
+          </div>
+
+          <div class="caixa-input">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxx-xxxx" required>
+          </div>
+
+          <div class="caixa-input">
+            <label for="nascimento">Data de nascimento:</label>
+            <input type="date" name="nascimento" id="nascimento" required>
+          </div>
+
+          <div class="caixa-input">
+            <label for="matricula">Matrícula:</label>
+            <input type="number" name="matricula" id="matricula" placeholder=" Ex: 00000000" required>
+          </div>
+
+          <div class="caixa-input">
+            <label for="admissao">Data de Admissão:</label>
+            <input type="month" name="admissao" id="admissao" required>
+          </div>
+
+        </div>
+
+        <div class="curso">
+          <div class="nome-curso">
+            <h5>Curso:</h5>
+
+          </div>
+
+          <div class="curso-gurpo">
+
+            <div class="curso-input">
+              <input type="radio" name="curso" id="tsi">
+              <label for="tsi">Sistemas Para Internet</label>
+            </div>
+
+            <div class="curso-input">
+              <input type="radio" name="curso" id="gestao">
+              <label for="gestao">Gestão Comercial</label>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="grupo-input">
+          <div class="caixa-input">
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço" required>
+          </div>
+        </div>
+
+        <div class="grupo-input">
+          <div class="caixa-input">
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+              <option value="" disabled selected hidden>Seu Estado</option>
+              <option value="AL">Alagoas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="MA">Maranhão</option>
+              <option value="PB">Paraíba</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="SE">Sergipe</option>
+            </select>
+          </div>
+
+          <div class="caixa-input">
+            <label for="cidade">Cidade: </label>
+            <select name="cidade" id="cidade" required>
+              <option value="" disabled selected hidden>Sua Cidade</option>
+              <option value="JP">João Pessoa</option>
+              <option value="CG">Campina Grande</option>
+              <option value="SR">Santa Rita</option>
+              <option value="PT">Patos</option>
+              <option value="BX">Bayeux</option>
+              <option value="CB">Cabedelo</option>
+              <option value="SS">Sousa</option>
+              <option value="CZ">Cajazeiras</option>
+              <option value="GB">Guarabira</option>
+              <option value="MG">Mamanguape</option>
+            </select>
+          </div>
+        </div>
+
+
+
+
+        <div class="botao">
+          <button>Enviar</button>
+        </div>
+
+    </div>
+   </form>
+  </div>
+  </div>
+
+
+</body>
+
+</html>
